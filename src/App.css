@@ -1,20 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
   background-color: darkslategray;
-  height: 110vh;
-  margin-top: -25px;
-
+  height: 100vh;
+  
 }
-.teleContainer {
+.headerName {
+  font-size: 90px;
+}
+.about {
+  margin: 2vh;
+}
+.projectContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.TV {
-  border-width: 1px ;
-  border-color: black;
-  height: 60vh;
-  width: 80vh;
+.projects {
+  height: 70vh;
+  width: 90vw;
   background-color: white;
+}
+.buttonContainer {
+  width: 30vw;
+  height: 100%;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
 
+}
+.buttonPanel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+.button {
+  width: 11vw;
+  height: 10vh;
+  margin-bottom: 1vh;
+  background-color: cadetblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
