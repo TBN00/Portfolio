@@ -1,7 +1,19 @@
-
+import { useState } from 'react';
 import './App.css';
+import {Journeyal} from "./Components/Journeyal"
+import {Ecards} from "./Components/Ecards"
+import {Trivia} from "./Components/Trivia"
+import {Pokedex} from "./Components/Pokedex"
+import {Itunes} from "./Components/Itunes"
+import {Albums} from "./Components/Albums"
+
 
 function App() {
+  const [buttonState, setButtonState] = useState('')
+
+
+console.log(buttonState)
+
   return (
     <div className="App">
       <h1 className="headerName">Taylor Nelson</h1>
@@ -16,15 +28,22 @@ function App() {
           <div className="buttonContainer">
             <h2>Projects</h2>
             <div className="buttonPanel">
-              <button className="button">Project</button>
-              <button className="button">Project</button>
-              <button className="button">Project</button>
-              <button className="button">Project</button>
-              <button className="button">Project</button>
-              <button className="button">Project</button>
+              <button onClick={() => setButtonState('Journeyal')} className="button">Journeyal</button>
+              <button onClick={() => setButtonState('Ecards')}  className="button">E-Cards</button>
+              <button onClick={() => setButtonState('Trivia')}  className="button">Trivia</button>
+              <button onClick={() => setButtonState('Pokedex')}  className="button">Pokedex</button>
+              <button onClick={() => setButtonState('Itunes')}  className="button">Itunes Search</button>
+              <button onClick={() => setButtonState('Albums')}  className="button">Album Directory</button>
             </div>
           </div>
-
+          <div className="displayProjects">
+          {buttonState === 'Journeyal' ? <Journeyal/> : 
+          buttonState === 'Ecards' ? <Ecards/> :
+          buttonState === 'Trivia' ? <Trivia/> :
+          buttonState === 'Pokedex' ? <Pokedex/> :
+          buttonState === 'Itunes' ? <Itunes/> :
+          buttonState === 'Albums' ? <Albums/> : null}
+          </div>
         </div>
       </div>
 

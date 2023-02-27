@@ -23,13 +23,15 @@
   height: 70vh;
   width: 90vw;
   background-color: white;
+  display: flex;
+  flex-direction: row;
 }
 .buttonContainer {
   width: 30vw;
   height: 100%;
-  border-width: 1px;
+  border-right-width: 1px;
   border-color: black;
-  border-style: solid;
+  border-right-style: solid;
 
 }
 .buttonPanel {
@@ -49,4 +51,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.projectImages {
+  height: 100%;
+  width: auto;
+}
+.displayProjects {
+  width: 90%;
+  height: auto;
 }
