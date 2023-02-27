@@ -9,7 +9,7 @@ import {Albums} from "./Components/Albums"
 
 
 function App() {
-  const [buttonState, setButtonState] = useState('')
+  const [buttonState, setButtonState] = useState('Journeyal')
 
 
   return (
@@ -29,7 +29,7 @@ function App() {
               <button onClick={() => setButtonState('Journeyal')} className="button">Journeyal</button>
               <button onClick={() => setButtonState('Ecards')}  className="button">E-Cards</button>
               <button onClick={() => setButtonState('Trivia')}  className="button">Trivia</button>
-              <button onClick={() => setButtonState('Pokedex')}  className="button">Pokedex</button>
+              <button onClick={() => setButtonState('Pokedex')}  className="button">Pokédex</button>
               <button onClick={() => setButtonState('Itunes')}  className="button">Itunes Search</button>
               <button onClick={() => setButtonState('Albums')}  className="button">Album Directory</button>
             </div>

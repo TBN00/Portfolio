@@ -51,12 +51,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 130%;
 }
 .projectImages {
   height: 60vh;
   border-radius: 15px;
   border-width: 1px;
   border-style: solid;
+}
+.displayContainer {
+  display: flex;
+  flex-direction: row;
+}
+.displayContainerImages{
+  width: 50%;
+  margin: 1%
+}
+.displayContainerDescription{
+  width: 50%;
+  margin: 1%;
 }
 .displayProjects {
   width: 90%;

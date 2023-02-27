@@ -24,8 +24,8 @@ export const Journeyal = () => {
     }
 
     return (
-        <div>
-            <h2>Journeyal</h2>
+        <div className="displayContainer">
+            <div className="displayContainerImages">
             <img className='projectImages' alt="images" src={images[counter]}/>
             <div className="directionButtonContainer">
                 <button className="directionButtons" onClick={() => handleClickLeft()}>
@@ -34,6 +34,11 @@ export const Journeyal = () => {
                 <button className="directionButtons" onClick={() => handleClickRight()}>
                     <p>→</p>
                 </button>
+            </div>
+            </div>
+            <div className="displayContainerDescription">
+            <h2>Journeyal</h2>
+            <p>A calendar app for record keeping</p>
             </div>
         </div>
     );

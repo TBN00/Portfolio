@@ -24,8 +24,8 @@ export const Trivia = () => {
     }
 
     return (
-        <div>
-            <h2>Trivia</h2>
+        <div className="displayContainer">
+            <div className="displayContainerImages">
             <img className='projectImages' alt="images" src={images[counter]}/>
             <div className="directionButtonContainer">
                 <button className="directionButtons" onClick={() => handleClickLeft()}>
@@ -34,6 +34,11 @@ export const Trivia = () => {
                 <button className="directionButtons" onClick={() => handleClickRight()}>
                     <p>→</p>
                 </button>
+            </div>
+            </div>
+            <div className="displayContainerDescription">
+            <h2>Trivia</h2>
+            <p>A trivia game using an API</p>
             </div>
         </div>
     );
