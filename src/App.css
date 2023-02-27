@@ -53,10 +53,16 @@
   align-items: center;
 }
 .projectImages {
-  height: 100%;
-  width: auto;
+  height: 60vh;
+  border-radius: 15px;
+  border-width: 1px;
+  border-style: solid;
 }
 .displayProjects {
   width: 90%;
   height: auto;
+}
+.directionButtonsContainer {
+  display: flex;
+  flex-direction: row;
 }

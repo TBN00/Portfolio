@@ -12,8 +12,6 @@ function App() {
   const [buttonState, setButtonState] = useState('')
 
 
-console.log(buttonState)
-
   return (
     <div className="App">
       <h1 className="headerName">Taylor Nelson</h1>
