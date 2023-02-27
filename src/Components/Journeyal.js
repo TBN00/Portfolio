@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 export const Journeyal = () => {
-    const images = ['assets/Journeyal-Login.png', 'assets/Journeyal-Home.png', 'assets/Journeyal-Calendar.png', 'assets/Journeyal-Day.png', 'assets/Journeyal-Search.png', 'assets/Journeyal-Add.png', 'assets/Journeyal-AddExtra.png']
+    const images = ['assets/Journeyal/Journeyal-Login.png', 'assets/Journeyal/Journeyal-Home.png', 'assets/Journeyal/Journeyal-Calendar.png', 'assets/Journeyal/Journeyal-Day.png', 'assets/Journeyal/Journeyal-Search.png', 'assets/Journeyal/Journeyal-Add.png', 'assets/Journeyal/Journeyal-AddExtra.png']
     let [counter, setCounter] = useState(0)
 
 
@@ -26,12 +26,12 @@ export const Journeyal = () => {
     return (
         <div>
             <h2>Journeyal</h2>
-            <img className='projectImages' src={images[counter]}/>
+            <img className='projectImages' alt="images" src={images[counter]}/>
             <div className="directionButtonContainer">
-                <button onClick={() => handleClickLeft()}>
+                <button className="directionButtons" onClick={() => handleClickLeft()}>
                     <p>←</p>
                 </button>
-                <button onClick={() => handleClickRight()}>
+                <button className="directionButtons" onClick={() => handleClickRight()}>
                     <p>→</p>
                 </button>
             </div>
