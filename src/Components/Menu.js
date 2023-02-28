@@ -8,7 +8,7 @@ export const Menu = ({ setButtonState }) => {
 
             <div className="icons">
             <a href="https://github.com/TBN00">
-                <img style={{width: "3vw", height: "3vw", padding: ".5vw"}} src="assets/github-mark.png"/>
+                <img style={{width: "3vw", height: "3vw", padding: ".5vw", marginRight: "1vw"}} src="assets/github-mark.png"/>
             </a>
             <a href="https://www.linkedin.com/in/taylor-nelson00/">
                 <img style={{width: "3vw", height: "3vw", padding: ".5vw"}} src="assets/LI-In-Bug.png"/>
