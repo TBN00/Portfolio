@@ -50,7 +50,7 @@
   justify-content: center;
   align-items: center;
   width: 80vw;
-  height: 100vh;
+  height: 100%;
 }
 .projects {
   height: 70vh;
@@ -64,25 +64,24 @@
 }
 .buttonPanel {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
   height: auto;
+  user-select: none;
+  cursor: pointer;
 }
 .button {
   width: 11vw;
   height: 10vh;
   margin-bottom: 1vh;
   background-color: rgb(20, 20, 20);
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 130%;
 }
 .projectImages {
-  height: 70vh;
+  height: 80vh;
   border-radius: 15px;
 }
 .displayContainer {
