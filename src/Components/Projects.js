@@ -12,11 +12,10 @@ export const Projects = () => {
 
 
     return (
-        <div>
+
             <div className='projectContainer'>
                 <div className="projects">
                     <div className="buttonContainer">
-                        <h2>Projects</h2>
                         <div className="buttonPanel">
                             <button onClick={() => setProjectState('Journeyal')} className="button">Journeyal</button>
                             <button onClick={() => setProjectState('Ecards')} className="button">E-Cards</button>
@@ -36,6 +35,6 @@ export const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+
     );
 }

@@ -11,7 +11,7 @@ export const Menu = ({setButtonState}) => {
                 <div onClick={() => setButtonState('Skills')} className="menuButtons">
                     <h3>Skills</h3>
                 </div>
-                <div onClick={() => setButtonState('Projects')} className="menuButtons">
+                <div style={{borderBottomWidth: 1, borderBottomColor: "white", borderBottomStyle: "solid"}} onClick={() => setButtonState('Projects')} className="menuButtons">
                     <h3>Projects</h3>
                 </div>
         </div>
