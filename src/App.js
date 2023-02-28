@@ -6,15 +6,23 @@ import {Trivia} from "./Components/Trivia"
 import {Pokedex} from "./Components/Pokedex"
 import {Itunes} from "./Components/Itunes"
 import {Albums} from "./Components/Albums"
+import {Menu} from "./Components/Menu"
 
 
 function App() {
-  const [buttonState, setButtonState] = useState('Journeyal')
+  const [buttonState, setButtonState] = useState('')
 
+console.log(buttonState)
 
   return (
     <div className="App">
-      <h1 className="headerName">Taylor Nelson</h1>
+      <Menu setButtonState={setButtonState}/>
+
+
+
+
+
+      {/* <h1 className="headerName">Taylor Nelson</h1>
       <h3>Front End Developer</h3>
 
       <div className="about">
@@ -43,7 +51,7 @@ function App() {
           buttonState === 'Albums' ? <Albums/> : null}
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div >
   );
