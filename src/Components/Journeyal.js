@@ -38,18 +38,17 @@ export const Journeyal = () => {
             </div>
             <div className="displayContainerDescription">
                 <h2>Journeyal</h2>
-                <br/>
+                <br />
                 <p>Final Project for my software development bootcamp. Journeyal is a journal/calendar app for recording memories. Working in a team of four, we communicated using Trello and worked using Agile methodology. I learned React Native for this and quickly grew to love it. We also utilized API requests to post and get user information.</p>
-            <br/>
-            <li>React Native</li>
-            <li>API</li>
-            <li>CSS</li>
-            <li>Agile</li>
-            <li>Trello</li>
-            <li>Git</li>
-
-            
-            
+                <br />
+                <div className="projectSkills">
+                    <li>React Native</li>
+                    <li>API</li>
+                    <li>CSS</li>
+                    <li>Agile</li>
+                    <li>Trello</li>
+                    <li>Git</li>
+                </div>
             </div>
         </div>
     );

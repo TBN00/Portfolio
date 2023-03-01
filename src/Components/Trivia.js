@@ -41,10 +41,12 @@ export const Trivia = () => {
                 <br/>
                 <p>A trivia quiz game using an API. This was originally made in React but I went back and reworked it into a React Native App.</p>
                 <br/>
+                <div className="projectSkills">
                 <li>React Native</li>
                 <li>API</li>
                 <li>CSS</li>
                 <li>Git</li>
+                </div>
             </div>
         </div>
     );

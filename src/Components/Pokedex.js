@@ -41,10 +41,12 @@ export const Pokedex = () => {
                 <br/>
                 <p>A pokédex using the free PokéApi. This was an engaging project where I learned a lot on gathering and displaying information from an API.</p>
                 <br/>
+                <div className="projectSkills">
                 <li>React Native</li>
                 <li>API</li>
                 <li>CSS</li>
                 <li>Git</li>
+                </div>
             </div>
         </div>
     );

@@ -12,7 +12,7 @@ function App() {
   console.log(buttonState)
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage: "url(assets/beanstalk-dark.webp)"}}>
       {buttonState.length === 0 &&
         <div>
           <h1>Hi, my name is Taylor</h1>
