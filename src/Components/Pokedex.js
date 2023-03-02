@@ -43,6 +43,7 @@ export const Pokedex = () => {
                 <br/>
                 <div className="projectSkills">
                 <li>React Native</li>
+                <li>JavaScript</li>
                 <li>API</li>
                 <li>CSS</li>
                 <li>Git</li>

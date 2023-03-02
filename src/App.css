@@ -92,6 +92,7 @@
 .displayContainer {
   display: flex;
   flex-direction: row;
+  width: 60vw
 }
 .displayContainerImages{
   width: 50%;
