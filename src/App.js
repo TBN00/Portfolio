@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App" style={{backgroundImage: "url(assets/beanstalk-dark.webp)"}}>
       {buttonState.length === 0 &&
-        <div>
-          <h1>Hi, my name is Taylor</h1>
-          <h2>I'm a front end developer</h2>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end", justifyContent: "center", paddingRight: "1vw"}}>
+          <h1 style={{fontSize: "10vh"}}>Hi, my name is Taylor</h1>
+          <h2 style={{fontSize: "5vh"}}>I'm a front end developer</h2>
         </div>}
       <div>
         {buttonState === 'About' ? <About /> :
