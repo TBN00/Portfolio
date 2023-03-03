@@ -14,12 +14,12 @@ export const Projects = () => {
     return (
         <div>
             <div className="buttonPanel">
-                <div onClick={() => setProjectState('Journeyal')} className="button">Journeyal</div>
-                <div onClick={() => setProjectState('Ecards')} className="button">E-Cards</div>
-                <div onClick={() => setProjectState('Trivia')} className="button">Trivia</div>
-                <div onClick={() => setProjectState('Pokedex')} className="button">Pokédex</div>
-                <div onClick={() => setProjectState('Itunes')} className="button">Itunes Search</div>
-                <div onClick={() => setProjectState('Albums')} className="button">Album Directory</div>
+                <div style={{backgroundColor: projectState === 'Journeyal' && 'rgb(80, 80, 80)'}} onClick={() => setProjectState('Journeyal')} className="button">Journeyal</div>
+                <div style={{backgroundColor: projectState === 'Ecards' && 'rgb(80, 80, 80)'}} onClick={() => setProjectState('Ecards')} className="button">E-Cards</div>
+                <div style={{backgroundColor: projectState === 'Trivia' && 'rgb(80, 80, 80)'}} onClick={() => setProjectState('Trivia')} className="button">Trivia</div>
+                <div style={{backgroundColor: projectState === 'Pokedex' && 'rgb(80, 80, 80)'}} onClick={() => setProjectState('Pokedex')} className="button">Pokédex</div>
+                <div style={{backgroundColor: projectState === 'Itunes' && 'rgb(80, 80, 80)'}} onClick={() => setProjectState('Itunes')} className="button">Itunes Search</div>
+                <div style={{backgroundColor: projectState === 'Albums' && 'rgb(80, 80, 80)'}} onClick={() => setProjectState('Albums')} className="button">Album Directory</div>
             </div>
             <div className='projectContainer'>
                 <div className="projects">

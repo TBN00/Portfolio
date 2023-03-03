@@ -4,7 +4,7 @@ export const Menu = ({ setButtonState }) => {
 
     return (
         <div className="menuBar">
-            <img className="headshot" src='assets/IMG_8003.jpg' />
+            <img className="headshot" src='assets/IMG_3266.jpg' />
 
             <div className="icons">
             <a href="https://github.com/TBN00">
