@@ -23,9 +23,9 @@ export const Skills = () => {
                     style={{ backgroundColor: tabState === 'Other' && 'rgb(80, 80, 80)' }}>Other</div>
             </div>
             <div className="projectContainer">
-                    {tabState === "FrontEnd" ? <FrontEnd/> :
-                        tabState === "BackEnd" ? <BackEnd/> :
-                            tabState === "Other" ? <Other/> : null}
+                    {tabState === "FrontEnd" ? <FrontEnd setTabeState={setTabeState}/> :
+                        tabState === "BackEnd" ? <BackEnd setTabeState={setTabeState}/> :
+                            tabState === "Other" ? <Other setTabeState={setTabeState}/> : null}
             </div>
         </div>
     );
