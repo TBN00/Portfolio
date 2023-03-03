@@ -3,6 +3,7 @@
   padding: 0;
   color: white;
 }
+
 .App {
   text-align: center;
   height: 100vh;
@@ -11,6 +12,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+
 .menuBar {
   width: 20vw;
   height: 100vh;
@@ -19,6 +21,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .headshot {
   width: 80%;
   height: 30%;
@@ -26,6 +29,7 @@
   margin-top: 3%;
 
 }
+
 .menuButtons {
   width: 100%;
   border-top-style: solid;
@@ -36,14 +40,13 @@
   user-select: none;
   cursor: pointer;
 }
+
 .icons {
   display: flex;
   justify-content: center;
   width: 100%;
   padding-top: 10%;
 }
-
-
 
 .projectContainer {
   display: flex;
@@ -52,16 +55,19 @@
   width: 80vw;
   height: 100%;
 }
+
 .projects {
   height: 70vh;
   width: 60vw;
   display: flex;
   flex-direction: row;
 }
+
 .buttonContainer {
   width: 30vw;
   height: 100%;
 }
+
 .buttonPanel {
   display: flex;
   justify-content: center;
@@ -70,6 +76,7 @@
   user-select: none;
   cursor: pointer;
 }
+
 .button {
   width: 11vw;
   height: 10vh;
@@ -80,41 +87,50 @@
   align-items: center;
   font-size: 130%;
 }
+
 .projectImages {
   height: 80vh;
   border-radius: 15px;
 }
-.projectSkills{
+
+.projectSkills {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 10%;
 }
+
 .displayContainer {
   display: flex;
   flex-direction: row;
   width: 60vw
 }
-.displayContainerImages{
+
+.displayContainerImages {
   width: 50%;
   margin: 1%
 }
-.displayContainerDescription{
+
+.displayContainerDescription {
   width: 50%;
   margin: 1%;
 }
+
 .displayProjects {
   width: 90%;
   height: auto;
 }
+
 .directionButtonsContainer {
   display: flex;
   flex-direction: row;
 }
+
 .directionButtons {
   height: 3vh;
   width: 20%;
   margin: 1%;
   background-color: rgb(20, 20, 20);
   font-size: 100%;
-} 
+}
+
