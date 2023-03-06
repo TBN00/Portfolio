@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 export const About = () => {
     let [counter, setCounter] = useState(0)
-    let pictures = ["/assets/About/KY9A0911.jpg", "/assets/About/IMG_1214.jpg", "/assets/About/IMG_1215.png", "/assets/About/IMG_7551.jpg", "/assets/About/IMG_7681.jpg"]
+    let pictures = ["/assets/About/KY9A0911.jpg", "/assets/About/IMG_1215.png", "/assets/About/IMG_1214.jpg", "/assets/About/IMG_7551.jpg", "/assets/About/IMG_7681.jpg"]
     let timerRef
 
     function timer() {
@@ -36,13 +36,13 @@ export const About = () => {
                     <h1>Hi, my name is Taylor Nelson</h1>
                     <br />
                     <h2>
-                        With years of experience in supply chain logistics and management,
-                        I decided to take a huge leap and go for my dream career. As a recent
-                        graduate in the Momentum program, I've had an amazing time learning JavaScript,
-                        Python, Django and React. I've developed a passion for front end development which
-                        led me to branch into React Native. Collaborating with others to create a mobile
-                        app has been some of the most fulfilling work I've ever done. I'm aspiring to
-                        bring a broad background with strong technical skills to excel as a Front-End Developer.
+                        I consider myself a big ole nerd who likes playing board games, staying physically active, 
+                        or cosplaying at the local ComicCon. I've worked as a grocery bagger, a supervisor at a University Bookstore and most 
+                        recently as a warehouse specialist. I've learned and aquired a lot of skills through these jobs like
+                        customer service, inventory management, and strong communication. But these jobs lacked something I truly wanted, 
+                        which was the ability to be creative. To use my skills to help create something others could use. In 2022 I finally 
+                        decided it was time to find this opportunity so I enrolled in a software development bootcamp and I've loved every moment since.
+
                     </h2>
                 </div>
             </div>
