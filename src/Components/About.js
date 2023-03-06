@@ -1,7 +1,26 @@
+import { useState } from "react";
+
 export const About = () => {
+    let [counter, setCounter] = useState(0)
+    let pictures = ["/assets/About/KY9A0911.jpg", "/assets/About/IMG_1214.jpg", "/assets/About/IMG_1215.png", "/assets/About/IMG_7551.jpg", "/assets/About/IMG_7681.jpg"]
+    let timerRef
+
+    function timer () {
+        if (counter === pictures.length - 1){
+            setCounter(0)
+        }
+        else {
+            setCounter(counter += 1)
+        }
+    }
+
+    clearInterval(timerRef)
+    timerRef = setTimeout(timer, 4000)
+
     return (
         <div className="projectContainer">
             <div style={{ width: '80%' }}>
+                <img style={{height: "50vh"}} src={pictures[counter]}/>
                 <h1>Hi, my name is Taylor Nelson</h1>
                 <br />
                 <h2>
