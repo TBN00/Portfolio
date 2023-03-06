@@ -7,12 +7,12 @@ export const Menu = ({ setButtonState }) => {
             <img className="headshot" src='assets/IMG_3266.jpg' />
 
             <div className="icons">
-            <a href="https://github.com/TBN00">
-                <img style={{width: "3vw", height: "3vw", padding: ".5vw", marginRight: "1vw"}} src="assets/github-mark-white.png"/>
-            </a>
-            <a href="https://www.linkedin.com/in/taylor-nelson00/">
-                <img style={{width: "3vw", height: "3vw", padding: ".5vw"}} src="assets/In-White-96.png"/>
-            </a>
+                <a href="https://github.com/TBN00">
+                    <img style={{ width: "3vw", height: "3vw", padding: ".5vw", marginRight: "1vw" }} src="assets/github-mark-white.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/taylor-nelson00/">
+                    <img style={{ width: "3vw", height: "3vw", padding: ".5vw" }} src="assets/In-White-96.png" />
+                </a>
             </div>
 
             <div onClick={() => setButtonState('About')} className="menuButtons">
@@ -24,6 +24,7 @@ export const Menu = ({ setButtonState }) => {
             <div style={{ borderBottomWidth: 1, borderBottomColor: "rgb(80, 80, 80)", borderBottomStyle: "solid" }} onClick={() => setButtonState('Projects')} className="menuButtons">
                 <h3>Projects</h3>
             </div>
+            
         </div>
     );
 }

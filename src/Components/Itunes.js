@@ -26,7 +26,7 @@ export const Itunes = () => {
     return (
         <div className="displayContainer">
             <div className="displayContainerImages">
-                <img style={{width: "60vh", height: "60vh"}} className='projectImages' alt="images" src={images[counter]} />
+                <img style={{width: "60vh", height: "60vh", marginTop: "5vh"}} className='projectImages' alt="images" src={images[counter]} />
                 <div className="directionButtonContainer">
                     <button className="directionButtons" onClick={() => handleClickLeft()}>
                         <p>⇦</p>
