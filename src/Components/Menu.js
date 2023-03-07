@@ -16,16 +16,19 @@ export const Menu = ({ setButtonState }) => {
             </div>
 
             <div onClick={() => setButtonState('About')} className="menuButtons">
-                <h3>About</h3>
+                <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>About</h3>
             </div>
             <div onClick={() => setButtonState('Skills')} className="menuButtons">
-                <h3>Skills</h3>
+                <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>Skills</h3>
             </div>
             <div onClick={() => setButtonState('Projects')} className="menuButtons">
-                <h3>Projects</h3>
+                <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>Projects</h3>
             </div>
             <div className="menuButtons">
-                <h3>Download my Resume</h3> 
+                <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>Contact Me</h3>
+            </div>
+            <div className="menuButtons">
+                <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>Resume</h3> 
             </div>
         </div>
     );
