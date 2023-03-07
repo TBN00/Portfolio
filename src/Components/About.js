@@ -13,7 +13,6 @@ export const About = () => {
             setCounter(counter += 1)
         }
     }
-
     clearInterval(timerRef)
     timerRef = setTimeout(timer, 4000)
 
@@ -32,17 +31,17 @@ export const About = () => {
                         }}
                     />
                 ))}
-                <div style={{marginTop: "50vh"}}>
-                    <h1>Hi, my name is Taylor Nelson</h1>
+                <div style={{ marginTop: "50vh", userSelect: 'none' }}>
+                    <h1>Hi, I'm Taylor...</h1>
                     <br />
                     <h2>
-                        I consider myself a big ole nerd who likes playing board games, staying physically active, 
-                        or cosplaying at the local ComicCon. I've worked as a grocery bagger, a supervisor at a University Bookstore and most 
-                        recently as a warehouse specialist. I've learned and aquired a lot of skills through these jobs like
-                        customer service, inventory management, and strong communication. But these jobs lacked something I truly wanted, 
-                        which was the ability to be creative. To use my skills to help create something others could use. In 2022 I finally 
-                        decided it was time to find this opportunity so I enrolled in a software development bootcamp and I've loved every moment since.
-
+                        I consider myself a big ol’ nerd whose hobbies include playing board games,
+                        staying physically active, and cosplaying at the local ComicCon. I’ve worked as a grocery bagger,
+                        a supervisor at a University bookstore, and most recently as a warehouse specialist. I’ve acquired
+                        many skills through these jobs such as customer service, inventory management, and strong communication
+                        and collaboration. However, these jobs lacked something I truly wanted: the ability to be creative
+                        and use my skills to help produce something tangible that others could use. In 2022, I finally decided
+                        to act on my dream and I enrolled in a software development bootcamp. I’ve loved every moment since.
                     </h2>
                 </div>
             </div>

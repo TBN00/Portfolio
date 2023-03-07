@@ -45,10 +45,12 @@ export const Journeyal = () => {
                     <li>React Native</li>
                     <li>JavaScript</li>
                     <li>API</li>
+                    <li>JSON</li>
                     <li>CSS</li>
                     <li>Agile</li>
                     <li>Trello</li>
                     <li>Git</li>
+                    <li>GitHub</li>
                 </div>
             </div>
         </div>

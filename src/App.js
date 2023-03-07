@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App" style={{backgroundImage: "url(assets/beanstalk-dark.webp)"}}>
       {buttonState.length === 0 &&
-        <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end", justifyContent: "center", paddingRight: "1vw"}}>
-          <h1 style={{fontSize: "10vh", borderTop: "1vh solid white", paddingTop: "2vh"}}>Hi, my name is Taylor</h1>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end", justifyContent: "center", paddingRight: "3vw", paddingBottom: "15vh"}}>
+          <h1 style={{fontSize: "10vh", borderTop: "1vh solid white", paddingTop: "2vh"}}>Hi, my name is Taylor Nelson</h1>
           <h2 style={{fontSize: "5vh", borderBottom: "1vh solid white", paddingBottom: "2vh"}}>I'm a front end developer</h2>
         </div>}
       <div>

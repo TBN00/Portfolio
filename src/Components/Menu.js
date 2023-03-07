@@ -21,10 +21,12 @@ export const Menu = ({ setButtonState }) => {
             <div onClick={() => setButtonState('Skills')} className="menuButtons">
                 <h3>Skills</h3>
             </div>
-            <div style={{ borderBottomWidth: 1, borderBottomColor: "rgb(80, 80, 80)", borderBottomStyle: "solid" }} onClick={() => setButtonState('Projects')} className="menuButtons">
+            <div onClick={() => setButtonState('Projects')} className="menuButtons">
                 <h3>Projects</h3>
             </div>
-            
+            <div className="menuButtons">
+                <h3>Download my Resume</h3> 
+            </div>
         </div>
     );
 }
