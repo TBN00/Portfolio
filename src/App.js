@@ -4,6 +4,7 @@ import { About } from './Components/About'
 import { Skills } from './Components/Skills'
 import { Projects } from './Components/Projects'
 import { Menu } from './Components/Menu'
+import { Contact } from './Components/Contact';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       <div>
         {buttonState === 'About' ? <About /> :
           buttonState === 'Skills' ? <Skills /> :
-            buttonState === 'Projects' ? <Projects /> : null}
+            buttonState === 'Projects' ? <Projects /> :
+            buttonState === 'Contact' ? <Contact /> : null}
       </div>
 
 

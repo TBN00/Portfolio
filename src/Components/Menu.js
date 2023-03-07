@@ -24,7 +24,7 @@ export const Menu = ({ setButtonState }) => {
             <div onClick={() => setButtonState('Projects')} className="menuButtons">
                 <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>Projects</h3>
             </div>
-            <div className="menuButtons">
+            <div onClick={() => setButtonState('Contact')} className="menuButtons">
                 <h3 style={{fontFamily: "LondrinaOutline", fontSize: "5.5vh"}}>Contact Me</h3>
             </div>
             <div className="menuButtons">
