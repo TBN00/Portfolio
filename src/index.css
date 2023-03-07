@@ -17,3 +17,13 @@ code {
   src: local("LondrinaOutline"),
   url("./fonts/LondrinaOutline-Regular.ttf") format("truetype");
 }
+@font-face{
+  font-family: "QuickSand";
+  src: local("QuickSand"),
+  url("./fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+@font-face{
+  font-family: "Exo";
+  src: local("Exo"),
+  url("./fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+}

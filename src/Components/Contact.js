@@ -1,27 +1,24 @@
 import { useState } from "react";
 
 
-
-
-
-// if (submitted) {
-    //     return (
-//         <>
-//             <div>Thank you!</div>
-//         </>
-//     )
-// }
-
-
-
 export const Contact = () => {
-    const FORM_ENDPOINT = ""
+    const FORM_ENDPOINT = "https://public.herotofu.com/v1/9dfc6280-bd2b-11ed-a5bc-bf2fe544c0fb"
     const [submitted, setSubmitted] = useState(false)
     const handleSubmit = () => {
         setTimeout(() => {
             setSubmitted(true)
         }, 100)
     }
+    
+    if (submitted) {
+            return (
+            <>
+                <div>Thank you!</div>
+            </>
+        )
+    }
+    
+    
     return (
         <div className="projectContainer">
             <form
