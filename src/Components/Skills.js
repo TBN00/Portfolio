@@ -1,32 +1,28 @@
 import { useState } from "react";
-import { BackEnd } from "./BackEnd";
-import { FrontEnd } from "./FrontEnd";
-import { Other } from "./Other";
 
 export const Skills = () => {
     const [tabState, setTabeState] = useState("")
 
     return (
-        <div>
-            <div className="buttonPanel"  style={{marginBottom: "-1vh"}}>
-                <div onMouseEnter={() => setTabeState("FrontEnd")}
-                    onMouseLeave={() => setTabeState("")}
-                    className="button"
-                    style={{ backgroundColor: tabState === 'FrontEnd' && 'rgb(80, 80, 80)' }}>Front End</div>
-                <div onMouseEnter={() => setTabeState("BackEnd")}
-                    onMouseLeave={() => setTabeState("")}
-                    className="button"
-                    style={{ backgroundColor: tabState === 'BackEnd' && 'rgb(80, 80, 80)' }}>Back End</div>
-                <div onMouseEnter={() => setTabeState("Other")}
-                    onMouseLeave={() => setTabeState("")}
-                    className="button"
-                    style={{ backgroundColor: tabState === 'Other' && 'rgb(80, 80, 80)' }}>Other</div>
-            </div>
             <div className="projectContainer">
-                    {tabState === "FrontEnd" ? <FrontEnd setTabeState={setTabeState}/> :
-                        tabState === "BackEnd" ? <BackEnd setTabeState={setTabeState}/> :
-                            tabState === "Other" ? <Other setTabeState={setTabeState}/> : null}
+                <div style={{display: "flex", flexDirection: "column"}}>
+                <h1 style={{fontSize: '10vh'}}>Skills</h1>
+                <div style={{width: "25vw", height: "40vh", display: "flex", flexDirection: 'column', flexWrap: 'wrap', marginTop: '3vh', alignItems: 'flex-start'}}>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>React Native</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>React</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>JavaScript</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>HTML</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>CSS</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>Python</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>Django</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>Agile Development</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>API</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>Git</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>GitHub</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>Trello</li>
+                    <li style={{fontSize: '3vh', paddingBottom: '1vh'}}>JSON</li>
+                </div>
             </div>
-        </div>
+            </div>
     );
 }

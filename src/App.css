@@ -32,9 +32,7 @@
 
 .menuButtons {
   width: 100%;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-color: rgb(20, 20, 20);
+
   padding-top: 5%;
   padding-bottom: 5%;
   user-select: none;
