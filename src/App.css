@@ -137,7 +137,6 @@
 
 .image {
   position: absolute;
-  top: 3vh;
   height: 50vh;
   transition: 1s ease;
   opacity: 0;

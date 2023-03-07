@@ -19,8 +19,10 @@ export const About = () => {
 
     return (
         <div className="projectContainer">
-            <div style={{ width: '80%', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                {pictures.map((pic, index) => (
+            <div style={{ width: '80%', zIndex: 1, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '40vw'}}>
+                    {pictures.map((pic, index) => (
                     <img
                         id={index}
                         key={index}
@@ -31,10 +33,11 @@ export const About = () => {
                         }}
                     />
                 ))}
-                <div style={{ marginTop: "50vh", userSelect: 'none' }}>
+                </div>
+                <div style={{userSelect: 'none', width: '30vw' }}>
                     <h1>Hi, I'm Taylor...</h1>
                     <br />
-                    <h2>
+                    <h2 style={{fontSize: "3vh"}}>
                         I consider myself a big ol’ nerd whose hobbies include playing board games,
                         staying physically active, and cosplaying at the local ComicCon. I’ve worked as a grocery bagger,
                         a supervisor at a University bookstore, and most recently as a warehouse specialist. I’ve acquired
