@@ -37,16 +37,16 @@ export const Pokedex = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2>Pokédex</h2>
+                <h2 style={{fontSize: "5vh"}}>Pokédex</h2>
                 <br/>
-                <p>A pokédex using the free PokéApi. This was an engaging project where I learned a lot on gathering and displaying information from an API.</p>
+                <p  className="bulletFont">A pokédex using the free PokéApi. This was an engaging project where I learned a lot on gathering and displaying information from an API.</p>
                 <br/>
                 <div className="projectSkills">
-                <li>React Native</li>
-                <li>JavaScript</li>
-                <li>API</li>
-                <li>CSS</li>
-                <li>Git</li>
+                <li className="bulletFont">React Native</li>
+                <li className="bulletFont">JavaScript</li>
+                <li className="bulletFont">API</li>
+                <li className="bulletFont">CSS</li>
+                <li className="bulletFont">Git</li>
                 </div>
             </div>
         </div>

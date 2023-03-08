@@ -9,16 +9,16 @@ export const Contact = () => {
             setSubmitted(true)
         }, 100)
     }
-    
+
     if (submitted) {
-            return (
-            <>
-                <div>Thank you!</div>
-            </>
+        return (
+                <div className="projectContainer">
+                    <h1>Thank you! We'll be in touch soon</h1>
+                </div>
         )
     }
-    
-    
+
+
     return (
         <div className="projectContainer">
             <form
@@ -28,7 +28,7 @@ export const Contact = () => {
                 target="_blank">
                 <div>
                     <input
-                    style={{width: "40vw", height: "5vh", fontSize: "5vh", margin: "1vh", color: "black"}}
+                        style={{ width: "40vw", height: "5vh", fontSize: "5vh", margin: "1vh", color: "black" }}
                         type="text"
                         placeholder="Your Name"
                         name="name"
@@ -37,7 +37,7 @@ export const Contact = () => {
                 </div>
                 <div>
                     <input
-                    style={{width: "40vw", height: "5vh", fontSize: "5vh", margin: "1vh", color: "black"}}
+                        style={{ width: "40vw", height: "5vh", fontSize: "5vh", margin: "1vh", color: "black" }}
                         type="email"
                         placeholder="Email"
                         name="email"
@@ -46,16 +46,16 @@ export const Contact = () => {
                 </div>
                 <div>
                     <textarea
-                    style={{width: "40vw", height: "40vh", fontSize: "2vh", margin: "1vh", color: "black"}}
+                        style={{ width: "40vw", height: "40vh", fontSize: "2vh", margin: "1vh", color: "black" }}
                         placeholder="Your message"
                         name="message"
                         required />
                 </div>
                 <div>
                     <button
-                        style={{height: "5vh", width: "10vw", background: "rgb(5, 5, 5)"}}
+                        style={{ height: "5vh", width: "10vw", background: "rgb(5, 5, 5)" }}
                         type="submit">
-                        Send a message
+                        Submit
                     </button>
                 </div>
             </form>

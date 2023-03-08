@@ -144,3 +144,7 @@
 .active {
   opacity: 1;
 }
+
+.bulletFont {
+  font-size: 3vh;
+}

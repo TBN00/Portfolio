@@ -37,16 +37,16 @@ export const Trivia = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2>Trivia</h2>
+                <h2 style={{fontSize: "5vh"}}>Trivia</h2>
                 <br/>
-                <p>A trivia quiz game using an API. This was originally made in React but I went back and reworked it into a React Native App.</p>
+                <p className="bulletFont">A trivia quiz game using an API. This was originally made in React but I went back and reworked it into a React Native App.</p>
                 <br/>
                 <div className="projectSkills">
-                <li>React Native</li>
-                <li>JavaScript</li>
-                <li>API</li>
-                <li>CSS</li>
-                <li>Git</li>
+                <li className="bulletFont">React Native</li>
+                <li className="bulletFont">JavaScript</li>
+                <li className="bulletFont">API</li>
+                <li className="bulletFont">CSS</li>
+                <li className="bulletFont">Git</li>
                 </div>
             </div>
         </div>

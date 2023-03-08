@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 
 export const About = () => {
     let [counter, setCounter] = useState(0)

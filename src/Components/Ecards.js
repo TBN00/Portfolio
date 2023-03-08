@@ -24,7 +24,7 @@ export const Ecards = () => {
     }
 
     return (
-        <div className="displayContainer">
+        <div style={{display: "flex", justifyContent: "space-between"}} className="displayContainer">
             <div className="displayContainerImages">
                 <img style={{ width: "60vh", height: "60vh", marginTop: "5vh" }} className='projectImages' alt="images" src={images[counter]} />
                 <div className="directionButtonContainer">
@@ -37,19 +37,19 @@ export const Ecards = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2>E-cards</h2>
+                <h2 style={{fontSize: "5vh"}}>E-cards</h2>
                 <br />
-                <p>This was my first project working with a back end team. It is a social e-cards site that allows users to create and share cards with their followers.
+                <p className="bulletFont">This was my first project working with a back end team. It is a social e-cards site that allows users to create and share cards with their followers.
                     This project was instrumental in learning how to post and get responses from an API.
                 </p>
                 <br />
                 <div className="projectSkills">
-                    <li>React</li>
-                    <li>JavaScript</li>
-                    <li>API</li>
-                    <li>CSS</li>
-                    <li>Git</li>
-                    <li>Agile</li>
+                    <li className="bulletFont">React</li>
+                    <li className="bulletFont">JavaScript</li>
+                    <li className="bulletFont">API</li>
+                    <li className="bulletFont">CSS</li>
+                    <li className="bulletFont">Git</li>
+                    <li className="bulletFont">Agile</li>
                 </div>
             </div>
         </div>

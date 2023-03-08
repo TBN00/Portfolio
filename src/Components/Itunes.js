@@ -37,16 +37,16 @@ export const Itunes = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2>Itunes</h2>
+                <h2 style={{fontSize: "5vh"}}>Itunes</h2>
                 <br/>
-                <p>First project using an API. It searches the free Itunes API based off keyword searches.</p>
+                <p className="bulletFont">First project using an API. It searches the free Itunes API based off keyword searches.</p>
                 <br/>
                 <div className="projectSkills">
-                <li>JavaScript</li>
-                <li>API</li>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>Git</li>
+                <li className="bulletFont">JavaScript</li>
+                <li className="bulletFont">API</li>
+                <li className="bulletFont">CSS</li>
+                <li className="bulletFont">HTML</li>
+                <li className="bulletFont">Git</li>
                 </div>
             </div>
         </div>

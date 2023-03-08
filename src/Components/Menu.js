@@ -4,14 +4,14 @@ export const Menu = ({ setButtonState }) => {
 
     return (
         <div className="menuBar">
-            <img className="headshot" src='assets/IMG_3266.jpg' />
+            <img alt="headshot" className="headshot" src='assets/IMG_3266.jpg' />
 
             <div className="icons">
                 <a href="https://github.com/TBN00">
-                    <img style={{ width: "3vw", height: "3vw", padding: ".5vw", marginRight: "1vw" }} src="assets/github-mark-white.png" />
+                    <img alt="icon" style={{ width: "3vw", height: "3vw", padding: ".5vw", marginRight: "1vw" }} src="assets/github-mark-white.png" />
                 </a>
                 <a href="https://www.linkedin.com/in/taylor-nelson00/">
-                    <img style={{ width: "3vw", height: "3vw", padding: ".5vw" }} src="assets/In-White-96.png" />
+                    <img alt="icon" style={{ width: "3vw", height: "3vw", padding: ".5vw" }} src="assets/In-White-96.png" />
                 </a>
             </div>
 

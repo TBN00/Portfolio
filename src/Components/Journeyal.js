@@ -37,20 +37,20 @@ export const Journeyal = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2>Journeyal</h2>
+                <h2 style={{fontSize: "5vh"}}>Journeyal</h2>
                 <br />
-                <p>Final Project for my software development bootcamp. Journeyal is a journal/calendar app for recording memories. Working in a team of four, we communicated using Trello and worked using Agile methodology. I learned React Native for this and quickly grew to love it. We also utilized API requests to post and get user information.</p>
+                <p className="bulletFont">Final Project for my software development bootcamp. Journeyal is a journal/calendar app for recording memories. Working in a team of four, we communicated using Trello and worked using Agile methodology. I learned React Native for this and quickly grew to love it. We also utilized API requests to post and get user information.</p>
                 <br />
                 <div className="projectSkills">
-                    <li>React Native</li>
-                    <li>JavaScript</li>
-                    <li>API</li>
-                    <li>JSON</li>
-                    <li>CSS</li>
-                    <li>Agile</li>
-                    <li>Trello</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
+                    <li className="bulletFont">React Native</li>
+                    <li className="bulletFont">JavaScript</li>
+                    <li className="bulletFont">API</li>
+                    <li className="bulletFont">JSON</li>
+                    <li className="bulletFont">CSS</li>
+                    <li className="bulletFont">Agile</li>
+                    <li className="bulletFont">Trello</li>
+                    <li className="bulletFont">Git</li>
+                    <li className="bulletFont">GitHub</li>
                 </div>
             </div>
         </div>
