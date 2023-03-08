@@ -24,6 +24,7 @@ export const About = () => {
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '40vw'}}>
                     {pictures.map((pic, index) => (
                     <img
+                    alt="about"
                         id={index}
                         key={index}
                         className={index === counter ? "image active" : "image"}
