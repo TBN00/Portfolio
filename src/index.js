@@ -6,6 +6,7 @@ import './fonts/LondrinaOutline-Regular.ttf'
 import './fonts/Quicksand-VariableFont_wght.ttf'
 import "./fonts/Exo2-VariableFont_wght.ttf"
 import './fonts/Squareo.ttf'
+import './fonts/Square.ttf'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

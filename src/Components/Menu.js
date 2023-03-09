@@ -1,6 +1,17 @@
 
 export const Menu = ({ setButtonState }) => {
-
+        
+    const onResumeClick = () => {
+            fetch('Nelson, Taylor Resume.pdf').then(response => {
+                response.blob().then(blob => {
+                    const fileURL = window.URL.createObjectURL(blob);
+                    let alink = document.createElement('a');
+                    alink.href = fileURL;
+                    alink.download = 'Nelson, Taylor Resume.pdf';
+                    alink.click();
+                })
+            })
+        }
 
     return (
         <div className="menuBar">
@@ -16,19 +27,19 @@ export const Menu = ({ setButtonState }) => {
             </div>
 
             <div onClick={() => setButtonState('About')} className="menuButtons">
-                <h3 style={{fontFamily: "Squareo", fontSize: "5.5vh"}}>About</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>About</h3>
             </div>
             <div onClick={() => setButtonState('Skills')} className="menuButtons">
-                <h3 style={{fontFamily: "Squareo", fontSize: "5.5vh"}}>Skills</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Skills</h3>
             </div>
             <div onClick={() => setButtonState('Projects')} className="menuButtons">
-                <h3 style={{fontFamily: "Squareo", fontSize: "5.5vh"}}>Projects</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Projects</h3>
             </div>
             <div onClick={() => setButtonState('Contact')} className="menuButtons">
-                <h3 style={{fontFamily: "Squareo", fontSize: "5.5vh"}}>Contact</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Contact</h3>
             </div>
-            <div className="menuButtons">
-                <h3 style={{fontFamily: "Squareo", fontSize: "5.5vh"}}>Resume</h3> 
+            <div onClick={onResumeClick} className="menuButtons">
+                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Resume</h3> 
             </div>
         </div>
     );

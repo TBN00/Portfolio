@@ -32,3 +32,8 @@ code {
   src: local("Squareo"),
   url("./fonts/Squareo.ttf") format("truetype");
 }
+@font-face{
+  font-family: "Square";
+  src: local("Square"),
+  url("./fonts/Square.ttf") format("truetype");
+}
