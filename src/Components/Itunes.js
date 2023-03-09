@@ -36,7 +36,7 @@ export const Itunes = () => {
                     </button>
                 </div>
             </div>
-            <div className="displayContainerDescription">
+            <div  style={{paddingLeft: '5vw'}} className="displayContainerDescription">
                 <h2 style={{fontSize: "5vh"}}>Itunes</h2>
                 <br/>
                 <p className="bulletFont">First project using an API. It searches the free Itunes API based off keyword searches.</p>

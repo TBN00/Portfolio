@@ -27,3 +27,8 @@ code {
   src: local("Exo"),
   url("./fonts/Exo2-VariableFont_wght.ttf") format("truetype");
 }
+@font-face{
+  font-family: "Squareo";
+  src: local("Squareo"),
+  url("./fonts/Squareo.ttf") format("truetype");
+}

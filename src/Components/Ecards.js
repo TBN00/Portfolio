@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 export const Ecards = () => {
-    const images = ['assets/Ecards/CornyHome.png']
+    const images = ['assets/Ecards/CornyHome.png', 'assets/Ecards/CornyCreate.png']
     let [counter, setCounter] = useState(0)
 
 
@@ -36,7 +36,7 @@ export const Ecards = () => {
                     </button>
                 </div>
             </div>
-            <div className="displayContainerDescription">
+            <div style={{paddingLeft: '5vw'}} className="displayContainerDescription">
                 <h2 style={{fontSize: "5vh"}}>E-cards</h2>
                 <br />
                 <p className="bulletFont">This was my first project working with a back end team. It is a social e-cards site that allows users to create and share cards with their followers.
