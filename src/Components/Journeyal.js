@@ -37,7 +37,7 @@ export const Journeyal = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2 style={{fontSize: "5vh"}}>Journeyal</h2>
+                <h2 style={{fontSize: "3vw"}}>Journeyal</h2>
                 <br />
                 <p className="bulletFont">Final Project for my software development bootcamp. Journeyal is a journal/calendar app for recording memories. Working in a team of four, we communicated using Trello and worked using Agile methodology. I learned React Native for this and quickly grew to love it. We also utilized API requests to post and get user information.</p>
                 <br />

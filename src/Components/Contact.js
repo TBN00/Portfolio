@@ -28,7 +28,7 @@ export const Contact = () => {
                 target="_blank">
                 <div>
                     <input
-                        style={{ width: "40vw", height: "5vh", fontSize: "5vh", margin: "1vh", color: "black" }}
+                        style={{ width: "40vw", height: "5vh", fontSize: "3vw", margin: "1vh", color: "black" }}
                         type="text"
                         placeholder="Your Name"
                         name="name"
@@ -37,7 +37,7 @@ export const Contact = () => {
                 </div>
                 <div>
                     <input
-                        style={{ width: "40vw", height: "5vh", fontSize: "5vh", margin: "1vh", color: "black" }}
+                        style={{ width: "40vw", height: "5vh", fontSize: "3vw", margin: "1vh", color: "black" }}
                         type="email"
                         placeholder="Email"
                         name="email"
@@ -46,7 +46,7 @@ export const Contact = () => {
                 </div>
                 <div>
                     <textarea
-                        style={{ width: "40vw", height: "40vh", fontSize: "2vh", margin: "1vh", color: "black" }}
+                        style={{ width: "40vw", height: "40vh", fontSize: "1.5vw", margin: "1vh", color: "black" }}
                         placeholder="Your message"
                         name="message"
                         required />

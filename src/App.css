@@ -109,7 +109,7 @@
 }
 
 .displayContainerImagesWeb {
-  height: 50vh;
+  height: 30vw;
   max-width: 40vw;
   margin-top:  5vh;
 }
@@ -150,5 +150,5 @@
 }
 
 .bulletFont {
-  font-size: 3vh;
+  font-size: 1.5vw;
 }
