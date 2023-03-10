@@ -3,8 +3,8 @@
 export const Albums = () => {
     return (
         <div style={{display: "flex", justifyContent: "space-between"}} className="displayContainer">
-            <div className="displayContainerImages">
-                <img style={{ width: "60vh", height: "60vh", marginTop: "5vh" }} className='projectImages' alt="images" src='assets/Albums.png' />
+            <div className="displayContainerImagesWeb">
+                <img style={{ width: "60vh", height: "60vh"}} className='projectImages' alt="images" src='assets/Albums.png' />
             </div>
             <div style={{paddingLeft: '5vw'}} className="displayContainerDescription">
                 <h2 style={{fontSize: "5vh"}}>Albums</h2>

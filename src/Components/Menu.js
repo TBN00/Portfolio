@@ -27,19 +27,19 @@ export const Menu = ({ setButtonState }) => {
             </div>
 
             <div onClick={() => setButtonState('About')} className="menuButtons">
-                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>About</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "3vw"}}>About</h3>
             </div>
             <div onClick={() => setButtonState('Skills')} className="menuButtons">
-                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Skills</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "3vw"}}>Skills</h3>
             </div>
             <div onClick={() => setButtonState('Projects')} className="menuButtons">
-                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Projects</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "3vw"}}>Projects</h3>
             </div>
             <div onClick={() => setButtonState('Contact')} className="menuButtons">
-                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Contact</h3>
+                <h3 style={{fontFamily: "Square", fontSize: "3vw"}}>Contact</h3>
             </div>
             <div onClick={onResumeClick} className="menuButtons">
-                <h3 style={{fontFamily: "Square", fontSize: "5.5vh"}}>Resume</h3> 
+                <h3 style={{fontFamily: "Square", fontSize: "3vw"}}>Resume</h3> 
             </div>
         </div>
     );

@@ -38,7 +38,7 @@ export const About = () => {
                 <div style={{userSelect: 'none', width: '40vw' }}>
                     <h1>Hi, I'm Taylor...</h1>
                     <br />
-                    <h2 style={{fontSize: "3vh"}}>
+                    <h2 style={{fontSize: "3vw"}}>
                         I consider myself a big ol’ nerd whose hobbies include playing board games,
                         staying physically active, and cosplaying at the local ComicCon. I’ve worked as a grocery bagger,
                         a supervisor at a University bookstore, and most recently as a warehouse specialist. I’ve acquired
