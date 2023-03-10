@@ -26,7 +26,7 @@ export const Ecards = () => {
     return (
         <div style={{display: "flex", justifyContent: "space-between"}} className="displayContainer">
             <div className="displayContainerImagesWeb">
-                <img style={{ width: "100%", height: "80%", marginTop: "5vh" }} className='projectImages' alt="images" src={images[counter]} />
+                <img style={{ width: "60vh", height: "60vh", marginTop: "5vh" }} className='projectImages' alt="images" src={images[counter]} />
                 <div className="directionButtonContainer">
                     <button className="directionButtons" onClick={() => handleClickLeft()}>
                         <p>⇦</p>

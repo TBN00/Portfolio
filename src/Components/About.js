@@ -35,7 +35,7 @@ export const About = () => {
                     />
                 ))}
                 </div>
-                <div style={{userSelect: 'none', width: '30vw' }}>
+                <div style={{userSelect: 'none', width: '40vw' }}>
                     <h1>Hi, I'm Taylor...</h1>
                     <br />
                     <h2 style={{fontSize: "3vh"}}>

@@ -12,7 +12,7 @@ export const Projects = () => {
 
 
     return (
-        <div>
+        <div style={{display: 'flex', alignItems: 'center',flexDirection: 'column', flexWrap: 'wrap', width: "80vw"}}>
             <div className="buttonPanel">
                 <div style={{backgroundColor: projectState === 'Journeyal' && 'rgb(20, 20, 20)'}} onClick={() => setProjectState('Journeyal')} className="button">Journeyal</div>
                 <div style={{backgroundColor: projectState === 'Ecards' && 'rgb(20, 20, 20)'}} onClick={() => setProjectState('Ecards')} className="button">E-Cards</div>
@@ -22,16 +22,12 @@ export const Projects = () => {
                 <div style={{backgroundColor: projectState === 'Albums' && 'rgb(20, 20, 20)'}} onClick={() => setProjectState('Albums')} className="button">Album Directory</div>
             </div>
             <div className='projectContainer'>
-                <div className="projects">
-                    <div className="displayProjects">
                         {projectState === 'Journeyal' ? <Journeyal /> :
                             projectState === 'Ecards' ? <Ecards /> :
                                 projectState === 'Trivia' ? <Trivia /> :
                                     projectState === 'Pokedex' ? <Pokedex /> :
                                         projectState === 'Itunes' ? <Itunes /> :
                                             projectState === 'Albums' ? <Albums /> : null}
-                    </div>
-                </div>
             </div>
         </div>
     );

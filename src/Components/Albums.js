@@ -27,29 +27,18 @@ export const Albums = () => {
         <div style={{display: "flex", justifyContent: "space-between"}} className="displayContainer">
             <div className="displayContainerImages">
                 <img style={{ width: "60vh", height: "60vh", marginTop: "5vh" }} className='projectImages' alt="images" src={images[counter]} />
-                <div className="directionButtonContainer">
-                    <button className="directionButtons" onClick={() => handleClickLeft()}>
-                        <p>⇦</p>
-                    </button>
-                    <button className="directionButtons" onClick={() => handleClickRight()}>
-                        <p>⇨</p>
-                    </button>
-                </div>
             </div>
             <div style={{paddingLeft: '5vw'}} className="displayContainerDescription">
                 <h2 style={{fontSize: "5vh"}}>Albums</h2>
                 <br />
-                <p className="bulletFont">This was my first project working with a back end team. It is a social e-cards site that allows users to create and share cards with their followers.
-                    This project was instrumental in learning how to post and get responses from an API.
+                <p className="bulletFont">Introduction to Django after learning Python. This project allows a user to add music albums to a saved library.
                 </p>
                 <br />
                 <div className="projectSkills">
-                    <li className="bulletFont">React</li>
-                    <li className="bulletFont">JavaScript</li>
-                    <li className="bulletFont">API</li>
+                    <li className="bulletFont">Django</li>
+                    <li className="bulletFont">Python</li>
                     <li className="bulletFont">CSS</li>
                     <li className="bulletFont">Git</li>
-                    <li className="bulletFont">Agile</li>
                 </div>
             </div>
         </div>
