@@ -1,32 +1,10 @@
-import { useState } from "react";
 
 
 export const Albums = () => {
-    const images = ['assets/Ecards/CornyHome.png', 'assets/Ecards/CornyCreate.png']
-    let [counter, setCounter] = useState(0)
-
-
-    const handleClickRight = () => {
-        if (counter === images.length - 1) {
-            setCounter(0)
-        }
-        else {
-            setCounter(counter += 1)
-        }
-    }
-    const handleClickLeft = () => {
-        if (counter === 0) {
-            setCounter(images.length - 1)
-        }
-        else {
-            setCounter(counter -= 1)
-        }
-    }
-
     return (
         <div style={{display: "flex", justifyContent: "space-between"}} className="displayContainer">
             <div className="displayContainerImages">
-                <img style={{ width: "60vh", height: "60vh", marginTop: "5vh" }} className='projectImages' alt="images" src={images[counter]} />
+                <img style={{ width: "60vh", height: "60vh", marginTop: "5vh" }} className='projectImages' alt="images" src='assets/Albums.png' />
             </div>
             <div style={{paddingLeft: '5vw'}} className="displayContainerDescription">
                 <h2 style={{fontSize: "5vh"}}>Albums</h2>

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 export const Ecards = () => {
-    const images = ['assets/Ecards/CornyHome.png', 'assets/Ecards/CornyCreate.png']
+    const images = ['assets/Ecards/CornyHome.png', 'assets/Ecards/CornyCreate.png', 'assets/Ecards/CornyAll.png']
     let [counter, setCounter] = useState(0)
 
 
