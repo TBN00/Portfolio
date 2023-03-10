@@ -7,8 +7,7 @@
 
 .App {
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -70,25 +69,23 @@
 .buttonPanel {
   display: flex;
   justify-content: center;
-  width: 100%;
   height: auto;
   user-select: none;
   cursor: pointer;
 }
 
 .button {
-  width: 11vw;
-  height: 10vh;
+  padding: 2%;
   margin-bottom: 1vh;
   background-color: rgb(5, 5, 5);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 130%;
+  font-size: 3vh;
 }
 
 .projectImages {
-  height: 80vh;
+  height: 100%;
   border-radius: 15px;
 }
 
@@ -105,12 +102,20 @@
   width: 60vw
 }
 
-.displayContainerImages {
-  width: 50%;
+.displayContainerImagesPhone {
+  height: 80vh;
+  width: 60%;
+  margin: 1%
+}
+
+.displayContainerImagesWeb {
+  height: 80vh;
+  width: 40vw;
   margin: 1%
 }
 
 .displayContainerDescription {
+  height: 80vh;
   width: 50%;
   margin: 1%;
 }

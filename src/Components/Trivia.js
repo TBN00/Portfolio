@@ -25,7 +25,7 @@ export const Trivia = () => {
 
     return (
         <div className="displayContainer">
-            <div className="displayContainerImages">
+            <div className="displayContainerImagesPhone">
                 <img className='projectImages' alt="images" src={images[counter]} />
                 <div className="directionButtonContainer">
                     <button className="directionButtons" onClick={() => handleClickLeft()}>
