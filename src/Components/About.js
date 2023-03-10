@@ -19,8 +19,7 @@ export const About = () => {
 
     return (
         <div className="projectContainer">
-            <div style={{ width: '80%', zIndex: 1, display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                
+            <div style={{ width: '80%', zIndex: 1, display: 'flex', flexDirection: 'row'}}>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '40vw'}}>
                     {pictures.map((pic, index) => (
                     <img
