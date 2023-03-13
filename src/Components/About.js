@@ -29,13 +29,13 @@ export const About = () => {
                         className={index === counter ? "image active" : "image"}
                         src={pic}
                         style={{
-                            zIndex: `-${index + 1}`
+                            zIndex: `-${index + 1}`, borderRadius: "15px"
                         }}
                     />
                 ))}
                 </div>
                 <div style={{userSelect: 'none', width: '40vw' }}>
-                    <h1>Hi, I'm Taylor...</h1>
+                    <h1 style={{fontSize: "2vw"}}>Hi, I'm Taylor...</h1>
                     <br />
                     <h2 style={{fontSize: "1.5vw"}}>
                         I consider myself a big ol’ nerd whose hobbies include playing board games,
