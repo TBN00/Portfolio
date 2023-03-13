@@ -53,7 +53,7 @@ export const Contact = () => {
                 </div>
                 <div>
                     <button
-                        style={{ height: "5vh", width: "10vw", background: "rgb(5, 5, 5)" }}
+                        style={{ height: "5vh", width: "10vw", background: "rgb(5, 5, 5)", fontSize: "1.5vw" }}
                         type="submit">
                         Submit
                     </button>
