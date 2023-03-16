@@ -37,7 +37,7 @@ export const Trivia = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2 style={{fontSize: "5vh"}}>Trivia</h2>
+                <h2 style={{fontSize: "3vw"}}>Trivia</h2>
                 <br/>
                 <p className="bulletFont">A trivia quiz game using an API. This was originally made in React but I went back and reworked it into a React Native App.</p>
                 <br/>

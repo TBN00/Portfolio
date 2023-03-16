@@ -37,7 +37,7 @@ export const Pokedex = () => {
                 </div>
             </div>
             <div className="displayContainerDescription">
-                <h2 style={{fontSize: "5vh"}}>Pokédex</h2>
+                <h2 style={{fontSize: "3vw"}}>Pokédex</h2>
                 <br/>
                 <p  className="bulletFont">A pokédex using the free PokéApi. This was an engaging project where I learned a lot on gathering and displaying information from an API.</p>
                 <br/>
