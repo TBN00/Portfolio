@@ -26,7 +26,7 @@ export const Itunes = () => {
     return (
         <div className="displayContainer">
             <div className="displayContainerImagesWeb">
-                <img style={{ width: "60vh", height: "60vh"}} className='projectImages' alt="images" src={images[counter]} />
+                <img style={{ width: "35vw", height: "35vw"}} className='projectImages' alt="images" src={images[counter]} />
                 <div className="directionButtonContainer">
                     <button className="directionButtons" onClick={() => handleClickLeft()}>
                         <p>⇦</p>
@@ -37,7 +37,7 @@ export const Itunes = () => {
                 </div>
             </div>
             <div  style={{paddingLeft: '5vw'}} className="displayContainerDescription">
-                <h2 style={{fontSize: "5vh"}}>Itunes</h2>
+                <h2 style={{fontSize: "3vw"}}>Itunes</h2>
                 <br/>
                 <p className="bulletFont">First project using an API. It searches the free Itunes API based off keyword searches.</p>
                 <br/>

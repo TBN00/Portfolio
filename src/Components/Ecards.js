@@ -26,7 +26,7 @@ export const Ecards = () => {
     return (
         <div style={{display: "flex", justifyContent: "space-between"}} className="displayContainer">
             <div className="displayContainerImagesWeb">
-                <img style={{ width: "60vh", height: "60vh"}} className='projectImages' alt="images" src={images[counter]} />
+                <img style={{ width: "35vw", height: "35vw"}} className='projectImages' alt="images" src={images[counter]} />
                 <div className="directionButtonContainer">
                     <button className="directionButtons" onClick={() => handleClickLeft()}>
                         <p>⇦</p>
@@ -37,7 +37,7 @@ export const Ecards = () => {
                 </div>
             </div>
             <div style={{paddingLeft: '5vw'}} className="displayContainerDescription">
-                <h2 style={{fontSize: "5vh"}}>E-cards</h2>
+                <h2 style={{fontSize: "3vw"}}>E-cards</h2>
                 <br />
                 <p className="bulletFont">This was my first project working with a back end team. It is a social e-cards site that allows users to create and share cards with their followers.
                     This project was instrumental in learning how to post and get responses from an API.
