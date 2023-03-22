@@ -1,8 +1,5 @@
-import { useState } from "react";
 
 export const Skills = () => {
-    const [tabState, setTabeState] = useState("")
-
     return (
             <div className="projectContainer">
                 <div style={{display: "flex", flexDirection: "column"}}>
